@@ -75,14 +75,14 @@ const MainClient = ({ get_result }: { get_result: GetData[] }) => {
             }}
           >
             {/* 슬라이더 영역 */}
-            <Box>
+            {/* <Box>
               <Box sx={{ padding: 2 }}>
                 <Carousel params={card_data} />
               </Box>
               <Box>
                 <Carousel params={card_data} />
               </Box>
-            </Box>
+            </Box> */}
             {/* 버튼 및 글쓰기 영역(MD) */}
             <Box sx={{ padding: 2 }}>
               <Button onClick={() => setWriteBool(true)}>Write</Button>
